@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 .about-description {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -8,14 +12,15 @@
     opacity: .6;
 }
 
-@media (max-height: 768px) {
-    #main {
-        left: 50%;
+@media (max-width: 767px) {
+    .at-at {
+        left: 0%;
+        margin-top: 35%;
     }
 }
 
-@media (min-height: 768px) {
-    #main {
+@media (min-width: 768px) {
+    .at-at {
         left: 50%;
     }
 }
