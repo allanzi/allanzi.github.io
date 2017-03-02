@@ -17,11 +17,36 @@ ul {
     position: relative;
 }
 .lines .line {
-    height: inherit;
+    height: 120%;
     width: 2px;
     position: absolute;
     background: rgba(238, 238, 238, 0.6);
 }
+
+@media (max-width: 425px) {
+    .lines .line {
+        height: 116% !important;
+    }
+
+    body {
+        padding: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .line__label__first {
+        padding-right: 31px;
+    }
+
+    .line__label__second {
+        padding-left: 4px;
+    }
+
+    .line__label__third {
+        padding-left: 32px;
+    }
+}
+
 .lines .line.l--0 {
     left: 0;
 }
