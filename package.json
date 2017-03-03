@@ -1,0 +1,18 @@
+{
+	"name": "Allan's-Portifolio",
+	"version": "1.0.0",
+	"description": "Portifolio created by Allan Santos",
+	"repository": "https://github.com/allanzi/allanzi.github.io.git",
+	"scripts":{
+		"start": "http-server -a 0.0.0.0 -p 8000"
+	},
+	"keywords": [
+		"Portifolio",
+		"Personal Page"
+	],
+	"author": "Allan Santos",
+	"license": "MIT",
+	"dependencies": {
+		"http-server": "^0.8.5"
+	}
+}
